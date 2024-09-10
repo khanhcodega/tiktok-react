@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 16px;
+  cursor: pointer;
+  &:hover {
+    background: rgba(22, 24, 35, 0.03);
+    .actions {
+      display: block;
+    }
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.info-box {
+  display: flex;
+}
+.info {
+  line-height: 1.2;
+}
+.name {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.check-icon {
+  margin-left: 6px;
+  color: rgb(32, 213, 236);
+}
+.username {
+  font-size: 1.4rem;
+  color: rgba(22, 24, 35, 0.5);
+}
+.actions {
+  display: none;
+}
+.action-btn {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
